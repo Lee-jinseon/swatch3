@@ -169,7 +169,7 @@ $('#sect3 .grid li a').on('click', function(){
     var src = $(this).find('img').attr('src')
     var alt = $(this).find('img').attr('alt')
 
-    $('body').append(`<div class="outLayer"><div class="inLayer"><h2>${title}</h2><div>><img src="${src}" alt="${alt}"><a href="${href}" target="_blank">사이트이동</a></div></div><button type="button">닫기</button></div>`)
+    $('body').append(`<div class="outLayer"><div class="inLayer"><h2>${title}</h2><div><img src="${src}" alt="${alt}"><a href="${href}" target="_blank">사이트이동</a></div></div><button type="button">닫기</button></div>`)
     $('.outLayer').css({
         position:'fixed',
         top:0, left:0, right:0, bottom:0,
